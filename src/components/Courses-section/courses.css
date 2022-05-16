@@ -1,0 +1,111 @@
+.courses__section {
+    background-color: #fff;
+    padding-top: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.course__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-right: 5rem;
+}
+.btn__courses{
+  
+  text-align: left;
+  width: 10rem;
+  text-align: center;
+  
+}
+.single__course__item {
+  padding: 15px;
+}
+.courses__section div img {
+width: 15rem;
+height: 15rem;
+padding-left: 60px;
+}
+
+/* .course__img img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+} */
+
+.enroll a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--main);
+}
+
+.lesson,
+.students,
+.rating {
+  font-size: 0.9rem;
+  color: #000;
+  font-weight: 500;
+}
+
+.lesson i,
+.students i,
+.rating i {
+  font-weight: 400;
+}
+
+.course__title {
+  line-height: 2rem;
+}
+
+.course__top__left h2 {
+  font-weight: 600;
+  text-align: center;
+}
+.courses__section .btn__courses {
+  margin-top: 20px;
+  color: var(--main);
+  font-weight: bold;
+}
+ .shape {
+  position: absolute;
+  top: 46rem;
+  left: 3rem;
+  width: 42px;
+  height: 60px;
+
+}
+.shape1 {
+  position: absolute;
+  top: 45rem;
+  right: 6rem;
+  width: 50px;
+  height: 50px;
+
+}
+.gif__img {
+  margin: 10px 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .courses__section {
+flex-wrap: wrap;
+padding-right: 40px;
+}
+.course__top {
+  padding-left: 5px;
+}
+.shape1 {
+  position: absolute;
+  top: 43rem !important;
+  right: 6rem;
+  width: 50px;
+  height: 50px;
+}
+.course__top {
+  padding: 0;
+}
+
+}

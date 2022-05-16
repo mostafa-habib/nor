@@ -1,0 +1,40 @@
+.footer {
+  background: rgb(194, 186, 186);
+  color: var(--main);
+  padding-bottom: 2.5rem;
+}
+
+.follows span a {
+  text-decoration: none;
+  color: black;
+  margin-left: 1rem;
+  text-align: left;
+}
+
+/* .follows span {
+  margin-right: 15px;
+} */
+
+.link__list .link__item {
+  background: transparent;
+}
+
+.link__list a {
+  text-decoration: none;
+  color: #0a2b1e;
+  font-weight: 500;
+}
+.contact p{
+  color: black;
+
+}
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    text-align: center;
+  }
+  .footer h2{
+    justify-content: center;
+
+  }
+}
